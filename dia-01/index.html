@@ -16,25 +16,38 @@
     <h1 class="page-title">
       1º dia - Calculadora de média</h1>
     <p class="page-subtitle">
-      Descubra qual a sua média de nota de todas as provas!
+      Descubra qual a sua média de nota de 3 provas!
     </p>
   </div>
   <div class="container">
     <label for="">nota 1</label>
-    <input type="text" id="nota1">
+    <input type="number" id="nota1">
     <label for="">nota 2</label>
-    <input type="text" id="nota2">
+    <input type="number" id="nota2">
     <label for="">nota 3</label>
-    <input type="text" id="nota3">
+    <input type="number" id="nota3">
     <br>
     <br>
     <input type="button" value="Gerar média Final" class="btn">
     <div class="result">
       <h2>Nota final <span class="notaFinal"></span> <span class="aprovacao"></span></h2>
     </div>
-
   </div>
 
+  <div class="container">
+    <h1 class="page-title">Conversor de Temperatura</h1>
+    <p class="page-subtitle">
+      Converta a temperatura de Celsius para Fahrenheit ou Fahrenheit para Celsius.
+    </p>
+  </div>
+  <div class="container">
+    <label for="">Digite a temperatura</label>
+    <input type="text" id="degree" placeholder="ex: 30C">
+    <input type="button" value="Gerar temperatura" class="btn2">
+    <div class="result2">
+      <h2><span class="js-degree"> </span></h2>
+    </div>
+  </div>
 
   <script src="./script.js"></script>
 </body>

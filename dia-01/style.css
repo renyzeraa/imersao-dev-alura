@@ -6,11 +6,10 @@
 
 body {
   font-family: 'Roboto Mono', monospace;
-  min-height: 400px;
   background-color: #2f2f2f;
-  background-size: 80vh;
-  background-position: center bottom;
-  background-repeat: no-repeat;
+  padding-top: 100px;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .container {
@@ -77,4 +76,31 @@ body {
   max-width: 120px;
   top: 10px;
   right: 10px;
+}
+
+.result2.active {
+  display: block;
+  margin-top: 10px;
+}
+
+.result2 {
+  display: none;
+}
+
+.container .btn2 {
+  background-color: crimson;
+  width: auto;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 18px;
+}
+
+.btn2:hover,
+.btn:hover {
+  filter: brightness(0.9);
+}
+
+#degree {
+  width: 100px;
 }

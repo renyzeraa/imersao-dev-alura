@@ -31,3 +31,56 @@ button.addEventListener('click', () => {
 
   result.classList.add('active')
 })
+
+const button2 = document.querySelector('.btn2')
+const result2 = document.querySelector('.result2')
+const degreeFinal = document.querySelector('.js-degree')
+
+function transformDegree(deg) {
+  const celsiusExists = deg.toUpperCase().includes('C')
+  const fahrenheitExists = deg.toUpperCase().includes('F')
+
+  if (!fahrenheitExists && !celsiusExists) {
+    return alert('Invalid degree: ' + deg)
+  }
+
+  if (deg.toUpperCase().includes('C')) {
+    const regexp = new RegExp(/[c]$/i)
+    const n = regexp.test(deg)
+    if (!n) {
+      return alert('Invalid degree: ' + deg)
+    }
+  }
+
+  if (deg.toUpperCase().includes('F')) {
+    const regexp = new RegExp(/[f]$/i)
+    const n = regexp.test(deg)
+    if (!n) {
+      return alert('Invalid degree: ' + deg)
+    }
+  }
+
+  //fluxo ideal F -> C
+  let updatedDegree = Number(deg.toUpperCase().replace('F', ''))
+  let formula = fahrenheit => (fahrenheit - 32) * (5 / 9)
+  let degreeSign = ' Celsius'
+
+  //fluxo alternativo
+  if (celsiusExists) {
+    updatedDegree = Number(deg.toUpperCase().replace('C', ''))
+    formula = celsius => celsius * (9 / 5) + 32
+    degreeSign = ' Fahrenheit'
+  }
+
+  resultDegree = formula(updatedDegree).toFixed(2) + degreeSign
+
+  degreeFinal.innerHTML = resultDegree
+  result2.classList.add('active')
+  return
+}
+
+button2.addEventListener('click', () => {
+  const degree = document.querySelector('#degree')
+  let deg = degree.value
+  transformDegree(deg)
+})
