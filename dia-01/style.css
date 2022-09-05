@@ -15,8 +15,51 @@ body {
 
 .container {
   text-align: center;
-  padding: 20px;
-  height: 100vh;
+  margin: 40px 0;
+  padding: 0 24px;
+}
+
+.container input {
+  padding: 12px;
+  border: 0;
+  border-radius: 10px;
+  width: 50px;
+}
+
+.container label {
+  font-size: 20px;
+  color: white;
+}
+
+.container h2 {
+  background-color: aqua;
+  padding: 12px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.container h2 .notaFinal {
+  background-color: #ffffff;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.container .btn {
+  background-color: crimson;
+  width: auto;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 18px;
+}
+
+.result {
+  display: none;
+}
+
+.result.active {
+  display: block;
+  margin-top: 10px;
 }
 
 .page-title {
@@ -30,5 +73,8 @@ body {
 }
 
 .page-logo {
-  max-width: 200px;
+  position: absolute;
+  max-width: 120px;
+  top: 10px;
+  right: 10px;
 }
