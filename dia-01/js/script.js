@@ -1,3 +1,4 @@
+// media
 const inputNota1 = document.querySelector('#nota1')
 const inputNota2 = document.querySelector('#nota2')
 const inputNota3 = document.querySelector('#nota3')
@@ -6,6 +7,14 @@ const result = document.querySelector('.result')
 const button = document.querySelector('.btn')
 let aprovacao = document.querySelector('.aprovacao')
 let media
+
+// conversor
+const button2 = document.querySelector('.btn2')
+const result2 = document.querySelector('.result2')
+const degreeFinal = document.querySelector('.js-degree')
+let degree = document.querySelector('#degree')
+
+// calcular media final
 
 function mediaFinal(n1, n2, n3) {
   let media = (n1 + n2 + n3) / 3
@@ -16,6 +25,12 @@ function mediaFinal(n1, n2, n3) {
   } else {
     aprovacao.innerHTML = `Reprovado !`
   }
+
+  if (nota1 === 0 && nota2 === 0 && nota3 === 0) {
+    return alert('Digite uma nota maior que 0')
+  }
+
+  result.classList.add('active')
 }
 
 button.addEventListener('click', () => {
@@ -23,18 +38,10 @@ button.addEventListener('click', () => {
   let nota2 = Number(inputNota2.value)
   let nota3 = Number(inputNota3.value)
 
-  if (nota1 === 0 && nota2 === 0 && nota3 === 0) {
-    return alert('Digite uma nota maior que 0')
-  }
-
   mediaFinal(nota1, nota2, nota3)
-
-  result.classList.add('active')
 })
 
-const button2 = document.querySelector('.btn2')
-const result2 = document.querySelector('.result2')
-const degreeFinal = document.querySelector('.js-degree')
+// conversor celsius ou fahrenheit
 
 function transformDegree(deg) {
   const celsiusExists = deg.toUpperCase().includes('C')
@@ -72,7 +79,7 @@ function transformDegree(deg) {
     degreeSign = ' Fahrenheit'
   }
 
-  resultDegree = formula(updatedDegree).toFixed(2) + degreeSign
+  let resultDegree = formula(updatedDegree).toFixed(2) + degreeSign
 
   degreeFinal.innerHTML = resultDegree
   result2.classList.add('active')
@@ -80,7 +87,6 @@ function transformDegree(deg) {
 }
 
 button2.addEventListener('click', () => {
-  const degree = document.querySelector('#degree')
   let deg = degree.value
   transformDegree(deg)
 })

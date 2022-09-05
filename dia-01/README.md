@@ -7,6 +7,10 @@ Nesta primeira aula da Imersão Dev, vamos criar uma calculadora de média e apr
 
 Neste programa, focamos nas primeiras ferramentas principais de qualquer linguagem de programação: variáveis, operadores, arredondamento e console.
 
+### Preview do projeto 🤩
+
+[![video_preview](https://user-images.githubusercontent.com/101990719/188468530-bd8234eb-787e-4653-9ff1-ed385eba2891.png)](https://user-images.githubusercontent.com/101990719/188468190-ffb8ecfc-a426-44f1-85d5-984629a97851.mp4)
+
 ### Conteúdo detalhado desta aula
 
 - Criar uma conta no CodePen;
@@ -26,8 +30,6 @@ Neste programa, focamos nas primeiras ferramentas principais de qualquer linguag
 4. Criar um conversor de temperaturas entre farenheit e celcius;
 
 5. Colocar a conta inteira da média em apenas uma linha;
-
-Projeto Licenciado [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 
 #### Links importantes para você acompanhar a aula
 
