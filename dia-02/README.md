@@ -8,7 +8,7 @@ Nesta programa aprenderemos como o JavaScript interage com o código HTML já fe
 
 ### Preview do projeto 🤩
 
-[![video_preview](https://user-images.githubusercontent.com/101990719/188468530-bd8234eb-787e-4653-9ff1-ed385eba2891.png)](https://user-images.githubusercontent.com/101990719/188468190-ffb8ecfc-a426-44f1-85d5-984629a97851.mp4)
+[![video_preview](https://user-images.githubusercontent.com/101990719/188716494-14b24dbc-c16f-4418-930e-d75b8ae1a0c7.png)](https://user-images.githubusercontent.com/101990719/188716363-62c51b94-5c00-4674-b1df-c09d2a0cb58e.mp4)
 
 ### Conteúdo detalhado desta aula
 
