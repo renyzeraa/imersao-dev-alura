@@ -47,8 +47,9 @@ body {
   color: #2c2c2c;
 }
 
-.mokey-gif {
-  max-width: 220px;
+.gif {
+  width: 100%;
+  display: block;
   border-radius: 50%;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.76);
 }
@@ -58,31 +59,115 @@ body {
 .value-content {
   margin: 48px 0;
   display: flex;
+
+  flex-wrap: wrap;
+  padding: 0 24px;
+  /* align-items: baseline; */
 }
 
 .enter-value {
   display: grid;
+  margin-right: 12px;
+  gap: 12px;
+  align-items: center;
+  justify-items: center;
 }
 
-input {
-  margin: 12px;
-  padding: 12px;
-  border-radius: 5px;
-  border: 0;
-}
-
-label {
+.enter-value label {
   color: white;
 }
 
-button {
-  margin-top: 12px;
-  padding: 4px 8px;
-  border-radius: 10px;
-  background: #ffffff;
+.enter-value input {
+  padding: 16px;
+  border-radius: 5px;
+  border: 0;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 20px;
 }
 
-h2 {
+.converter-content {
+  display: grid;
+  gap: 8px;
+  margin-right: 20px;
+}
+
+.converter-content button {
+  width: 300px;
+  padding: 8px 32px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(1.5px);
+  color: black;
+  text-transform: uppercase;
+  font-size: 20px;
+  transition: 0.5s;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.converter-content button:hover {
+  transform: scale(1.1);
+}
+
+#libra {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/255px-Flag_of_the_United_Kingdom_%283-5%29.svg.png);
+  background-position: bottom;
+  color: black;
+}
+
+#dolar {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/206/206626.png);
+}
+
+#euro {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/206/206593.png);
+}
+
+button:hover {
+  filter: blur(0px);
+}
+
+.valor-convertido {
   color: #ffffff;
   font-size: 30px;
+}
+
+.values-content {
+  display: grid;
+  align-content: space-between;
+}
+
+.final-euro {
+  background: white;
+  border-radius: 4px;
+  opacity: 0;
+}
+
+.final-libra {
+  background: white;
+  border-radius: 4px;
+  opacity: 0;
+}
+
+.final-dolar {
+  background: white;
+  border-radius: 4px;
+  opacity: 0;
+}
+
+.most-value h2 {
+  display: block;
+}
+
+.active {
+  opacity: 1;
+  display: inline-block;
 }
