@@ -6,11 +6,11 @@
 
 ### Dia 1
 
-<a href="https://renyzeraa.github.io/imersao-dev-alura/dia-01/">Média de Notas e Conversor de Temperatura</a>
+<a href="https://renyzeraa.github.io/imersao-dev-alura/dia-01/"> Média de Notas 🧾 e Conversor de Temperatura 🌡</a>
 
 ### Dia 2
 
-<a href="#">Em breve ...</a>
+<a href="https://renyzeraa.github.io/imersao-dev-alura/dia-02/"> Conversor de Moedas 💱 </a>
 
 ---
 

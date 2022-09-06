@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, 
+  initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Dia 2 - Conversor de Moeda</title>
+</head>
+
+<body>
+
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="imersaodev-logo" alt="">
+
+  <main>
+    <div class="container">
+      <header>
+        <div class="text-content">
+          <h1 class="page-title">
+            Conversor de moedas
+          </h1>
+          <p class="page-subtitle">
+            Digite o valor em Reais sem Cifrão (R$) e escolha para qual moeda quer converter
+          </p>
+        </div>
+
+        <img src="https://media4.giphy.com/media/TUMBjT9u5LmV2/giphy.gif?cid=790b76114b79c2e8b4af7651e9aff361bee704ba87dd7d3e&rid=giphy.gif&ct=g" class="mokey-gif" alt="monkey with money">
+      </header>
+
+      <div class="value-content">
+        <div class="enter-value"">
+          <label for=" moeda">Insira o valor</label>
+          <input type="number" id="valor" size="2" />
+        </div>
+        <button type="submit" onclick="Converter()">Converter</button>
+        <h2 id="valorConvertido"></h2>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

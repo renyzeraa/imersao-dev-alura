@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-color: rgb(118, 0, 141);
+  position: relative;
+  display: grid;
+  justify-content: center;
+}
+
+.imersaodev-logo {
+  max-width: 180px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+/*  Header  */
+
+.container {
+  max-width: 900px;
+  margin: 120px 0;
+  text-align: center;
+  padding: 0 24px;
+}
+
+.container header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  background: rgba(255, 255, 255, 0.39);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.text-content {
+  display: grid;
+  gap: 12px;
+}
+
+.page-subtitle,
+.page-title {
+  color: #2c2c2c;
+}
+
+.mokey-gif {
+  max-width: 220px;
+  border-radius: 50%;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.76);
+}
+
+/* Input and Buttons */
+
+.value-content {
+  margin: 48px 0;
+  display: flex;
+}
+
+.enter-value {
+  display: grid;
+}
+
+input {
+  margin: 12px;
+  padding: 12px;
+  border-radius: 5px;
+  border: 0;
+}
+
+label {
+  color: white;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 30px;
+}
