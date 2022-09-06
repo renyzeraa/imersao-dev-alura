@@ -1,10 +1,10 @@
-# VARIÁVEIS, OPERAÇÕES E MÉDIA
+# CONVERSOR DE MOEDAS
 
-Nesta primeira aula da Imersão Dev, vamos criar uma calculadora de média e aprender o que são variáveis e como realizar operações! O código da aula inicial para você acompanhar está aqui:
+Nesta segunda aula da Imersão Dev, vamos criar um conversor de moedas, onde você conseguirá transformar em reais para três moedas diferentes! O código da aula inicial para você acompanhar está aqui:
 
-[**Código da Aula**](https://codepen.io/imersao-dev/pen/38cf7906dcec352d8dbd0f8c4c7c1b10)
+[**Código da Aula**](https://codepen.io/imersao-dev/pen/zYNOZRX)
 
-Neste programa, focamos nas primeiras ferramentas principais de qualquer linguagem de programação: variáveis, operadores, arredondamento e console.
+Nesta programa aprenderemos como o JavaScript interage com o código HTML já feito. Além disso veremos como criar funções e chamá-las para serem executadas.
 
 ### Preview do projeto 🤩
 
@@ -12,34 +12,27 @@ Neste programa, focamos nas primeiras ferramentas principais de qualquer linguag
 
 ### Conteúdo detalhado desta aula
 
-- Criar uma conta no CodePen;
-- Entender as diferenças entre HTML, CSS e JavaScript;
-- Variáveis, manipulação dos valores armazenados e a memória do computador;
-- Tipos de variáveis, como texto e inteiro;
-- Fixando a quantidade de casas decimais com a função toFixed();
+- Interagir com usuário para receber os preços a serem convertidos;
+- Criar a lógica para saber como converter;
+- Utilizar funções que interagem com a tela;
+- Exibir o resultado na tela com innerHTML;
 
 #### Desafios desta aula!
 
-1. Dependendo da nota, mostrar se a aluna ou aluno foi aprovada(o) ou não;
+1. Adicionar outras moedas para converter;
 
-2. Alterar o fundo da tela da maneira que achar mais legal;
+2. Conversor de quilômetros para anos luz e verificar o tempo que demora para ir de uma estrela para outra;
 
-3. Imprimir na própria página o resultado, ao invés do console;
+3. Conversor de temperaturas entre fahrenheit, kelvin e celsius;
 
-4. Criar um conversor de temperaturas entre farenheit e celcius;
-
-5. Colocar a conta inteira da média em apenas uma linha;
+4. Adicionar uma linha ao projeto desenvolvido para que apareça o valor em bitcoin;
 
 #### Links importantes para você acompanhar a aula
 
 - [Codepen - editor de código online](https://codepen.io/)
-- [HTML, CSS e JavaScript, quais as diferenças](https://www.alura.com.br/artigos/html-css-e-js-definicoes)
+- [Operadores boleanos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators)
 
-#### Links citados nesta aula
-
-- [Mais sobre variáveis](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Grammar_and_types#vari%C3%A1veis)
-- [Mais sobre a função parseFloat](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/parseFloat)
-- [Manifesto Tech](https://manifestotech.org/)
+- [Repositório do código final da aula 1](https://codepen.io/imersao-dev/details/cd51f297c0a006ec3090761e6c382c9b)
 
 #### Conteúdos extras:
 
