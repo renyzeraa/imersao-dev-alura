@@ -12,6 +12,10 @@
 
 <a href="https://renyzeraa.github.io/imersao-dev-alura/dia-02/"> Conversor de Moedas 💱 </a>
 
+### Dia 3
+
+<a href="https://renyzeraa.github.io/imersao-dev-alura/dia-03/"> Jogo adivinhar número de 0 a 10 🕹 </a>
+
 ---
 
 Projeto Licenciado [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
