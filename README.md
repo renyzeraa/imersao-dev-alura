@@ -16,6 +16,14 @@
 
 <a href="https://renyzeraa.github.io/imersao-dev-alura/dia-03/"> Jogo adivinhar número de 0 a 10 🕹 </a>
 
+### Dia 4
+
+<a href="https://renyzeraa.github.io/imersao-dev-alura/dia-04/"> </a>
+
+### Dia 5
+
+<a href="https://renyzeraa.github.io/imersao-dev-alura/dia-05/"> </a>
+
 ---
 
 Projeto Licenciado [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
