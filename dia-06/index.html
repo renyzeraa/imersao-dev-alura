@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -13,6 +13,11 @@
 <body>
   <h1>Tabela de classificação</h1>
 
+  <input type="text" placeholder="nome do jogador" id="name-player">
+  <button type="submit" onclick="addNewPlayer()" id="add-player">adicionar</button>
+  <button onclick="zerarPontos()">Zerar</button>
+  <br>
+  <br>
   <table style="width:100%">
     <thead>
       <tr>
@@ -21,30 +26,10 @@
         <th>Empates</th>
         <th>Derrotas</th>
         <th>Pontos</th>
-        <th colspan="3">Ações</th>
+        <th colspan="4">Ações</th>
       </tr>
     </thead>
     <tbody id="tabelaJogadores">
-      <tr>
-        <td>Paulo</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td><button onClick="adicionarVitoria()">Vitória</button></td>
-        <td><button onClick="adicionarEmpate()">Empate</button></td>
-        <td><button onClick="adicionarDerrota()">Derrota</button></td>
-      </tr>
-      <tr>
-        <td>Rafa</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td><button onClick="adicionarVitoria()">Vitória</button></td>
-        <td><button onClick="adicionarEmpate()">Empate</button></td>
-        <td><button onClick="adicionarDerrota()">Derrota</button></td>
-      </tr>
     </tbody>
   </table>
 
