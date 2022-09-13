@@ -18,11 +18,19 @@
 
 ### Dia 4
 
-<a href="https://renyzeraa.github.io/imersao-dev-alura/dia-04/"> </a>
+<a href="https://renyzeraa.github.io/imersao-dev-alura/dia-04/"> ARRAY, LISTA E ALURAFLIX </a>
 
 ### Dia 5
 
-<a href="https://renyzeraa.github.io/imersao-dev-alura/dia-05/"> </a>
+<a href="https://renyzeraa.github.io/imersao-dev-alura/dia-05/"> FUNÇÕES NO ALURAFLIX </a>
+
+### Dia 6
+
+<a href="https://renyzeraa.github.io/imersao-dev-alura/dia-06/"> OBJETOS E TABELAS DE CLASSIFICAÇÃO </a>
+
+### Dia 7
+
+<a href="https://renyzeraa.github.io/imersao-dev-alura/dia-07/"> SUPERTRUNFO - LÓGICA DO JOGO </a>
 
 ---
 
