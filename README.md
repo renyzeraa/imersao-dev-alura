@@ -32,6 +32,10 @@
 
 <a href="https://renyzeraa.github.io/imersao-dev-alura/dia-07/"> SUPERTRUNFO - LÓGICA DO JOGO </a>
 
+### Dia 8
+
+<a href="https://renyzeraa.github.io/imersao-dev-alura/dia-08/"> SUPERTRUNFO - CARTAS DO JOGO </a>
+
 ---
 
 Projeto Licenciado [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
