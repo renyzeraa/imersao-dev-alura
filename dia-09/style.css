@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100% cover;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  padding: 0 2.4rem;
+}
+
+main {
+  background-color: aliceblue;
+  padding: 4rem;
+  border-radius: 20px;
+  margin: 5rem auto;
+  max-width: 112rem;
+  color: #1c1c1c;
+}
+
+header {
+  margin: 3rem 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+header img {
+  border-radius: 50%;
+  width: 150px;
+  border: 2px solid rgb(9, 9, 85);
+  padding: 4px;
+}
+.dados .nome {
+  font-size: 3.6rem;
+  line-height: 4.2rem;
+}
+
+.dados .funcao {
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+}
+
+section {
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 2rem;
+  padding: 8rem;
+  text-align: center;
+}
+
+section .titulo {
+  font-size: 4.8rem;
+  line-height: 5.6rem;
+  margin-bottom: 3.6rem;
+}
+
+section .projetos {
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 4.2rem;
+}
+
+li a {
+  color: #1c1c1c;
+}
